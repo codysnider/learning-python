@@ -1,9 +1,16 @@
-import sys
+def add_number(x, y):
+    return x + y
 
 
-def test():
-    sys.exit()
+def say_my_name():
+    print("Hello, Cody")
 
 
 if __name__ == "__main__":
-    test()
+    say_my_name()
+
+    print(add_number(2, 2))
+
+    say_my_name()
+
+    print(add_number(1, 1))
